@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 14px;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.left-side, .right-side {
+    flex: 1 1 45%;
+    background: white;
+    padding: 20px;
+    border: 1.5px solid #bbb;
+    border-radius: 6px;
+}
+
+h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    font-size: 17px;
+    color: #444;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 8px;
+    display: block;
+}
+
+input[type="text"], input[type="email"], select {
+    width: 95%;
+    padding: 7px;
+    margin: 3px 0 9px 0;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+button {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0a58ca;
+}
+
+.err {
+    font-size: 12px;
+    color: red;
+    margin: 2px 0 6px 0;
+}
+
+.student-box {
+    border: 1px solid #aaa;
+    padding: 12px;
+    margin: 8px 0;
+    background: #fafafa;
+    border-radius: 5px;
+}
+
+.student-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #004c99;
+    margin-bottom: 6px;
+}
+
+.student-detials {
+    margin: 4px 0;
+    font-size: 13px;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #a71d2a;
+}
+
+.summary-section {
+    margin-top: 26px;
+    background: #fff;
+    padding: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#summaryTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 9px;
+    font-size: 13.5px;
+}
+
+#summaryTable th, #summaryTable td {
+    border: 1px solid #ddd;
+    padding: 7px;
+    text-align: left;
+}
+
+#summaryTable th {
+    background: #f2f2f2;
+}
